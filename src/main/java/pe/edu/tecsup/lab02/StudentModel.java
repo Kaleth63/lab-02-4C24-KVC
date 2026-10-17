@@ -5,6 +5,7 @@ public class StudentModel {
     private String name;
     private int age;
     private String career;
+    private String semestre;
 
     public StudentModel(String name, int age, String career) {
         this.name = name;
@@ -22,5 +23,12 @@ public class StudentModel {
 
     public String getCareer() {
         return career;
+    }
+    public String getSemestre() {
+    return semestre;
+    }
+
+    public void setSemestre(String semestre) {
+        this.semestre = semestre;
     }
 }
