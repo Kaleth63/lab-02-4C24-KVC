@@ -9,6 +9,9 @@ public class StudentController {
         this.model = model;
         this.view = view;
     }
+    public String getWelcomeMessage() {
+    return "Bienvenido al sistema de estudiantes";
+    }
 
     public void updateView() {
         view.showStudent(model.getName(), model.getAge());
